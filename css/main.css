@@ -1,0 +1,67 @@
+td{
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+table{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-collapse:collapse;
+	width:100%;
+	height:100%;
+}
+body{
+	margin: 0;
+	position: relative;
+	text-align: center;
+}
+.world{
+	position: absolute;
+
+	left:50%;
+	top:50%;
+}
+.nav{
+	margin:0 auto;
+	width:600px;
+	height:400px;
+}
+.gametitle{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 130px;
+	width:200px;
+	float:left;
+	margin－left:50px;
+	text-align: center;
+
+}
+.startdiv{
+	width:200px;
+	height:50px;
+	margin:0 auto;
+}
+.startbutton{
+	margin:0 auto;
+}
+.demo{
+	width:500px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.demoposition{
+	width:500px;
+	position: absolute;
+	top:95%;
+	left:50%;
+	margin-left: -250px;
+}
+.snake{
+/*	background:url(../images/snake.jpg) no-repeat;
+
+	background-size:contain;*/
+	background-color: black;
+}
+.food{
+	background-color: red;
+}
+
